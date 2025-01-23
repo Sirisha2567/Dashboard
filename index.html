@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/efc246ce45.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<main>
+
+    <section class="left">
+        <div class="profile">
+            <img src="https://static.vecteezy.com/system/resources/previews/001/609/720/original/man-face-avatar-cartoon-free-vector.jpg">
+            <p>John Doe</p>
+        </div>
+        <div class="nav">
+            <i class="fa-solid fa-list-ul"></i>
+            <a href="#board"> DASHBOARD </a>
+        </div>
+        <div class="nav">
+            <i class="fa-solid fa-database"></i>
+            <a href="#data"> DATA</a>
+        </div>
+        <div class="nav">
+            <i class="fa-solid fa-user"></i>
+            <a href="#users"> USERS</a>
+        </div>
+        <div class="nav">
+            <i class="fa-solid fa-calendar"></i>
+            <a href="#schedule"> SCHEDULE</a>
+        </div>
+        <div class="nav">
+            <i class="fa-solid fa-cog"></i>
+            <a href="#contact"> CONTACT</a>
+        </div>
+    </section>
+
+    <section class="right">
+        <header>
+            <h1>DashBoard</h1>
+            <input placeholder="Search..." />
+        </header>
+
+        <article id="board">
+            <div>
+                <h3>Activities</h3>
+                <p>May-June 2023</p>
+            </div>
+            <div>
+                <img src="Bargraph.jpg" alt="Graph" />
+            </div>
+        </article>
+
+        <article id="data">
+            <h2>Dashboard Data</h2>
+            <div class="card-con">
+                <div class="card1 card">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <p class="cardHead">Total Revenue</p>
+                    <p class="cardData">$456,43,22</p>
+                </div>
+
+                <div class="card2 card">
+                    <i class="fa-solid fa-tag"></i>
+                    <p class="cardHead">Total Transaction</p>
+                    <p class="cardData">1450</p>
+                </div>
+
+                <div class="card3 card">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <p class="cardHead">Total Likes</p>
+                    <p class="cardData">1234</p>
+                </div>
+
+                <div class="card4 card">
+                    <i class="fa-solid fa-user"></i>
+                    <p class="cardHead">Total Users</p>
+                    <p class="cardData">856</p>
+                </div>
+            </div>
+        </article>
+
+        <article id="users">
+            <table>
+                <h2 style="text-align: center; text-decoration: underline;">User Interaction</h2>
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Number of Users</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>January</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>
+                        <td>March</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td>April</td>
+                        <td>1250</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <article id="schedule">
+            <div class="schedule-head">
+                <h3>Today's Schedule</h3>
+                <p>see all</p>
+            </div>
+            <div class="schedule-details">
+                <p class="meets head">Meetings from suppliers from Kutta</p>
+                <p class="meets detail">14.00-15.00</p>
+                <p class="meets detail">at Sunset Road Kutta Bali</p>
+            </div>
+            <div class="schedule-details">
+                <p class="meets head">Meetings from suppliers from AAA</p>
+                <p class="meets detail">12.00-13.00</p>
+                <p class="meets detail">at Sunset Road Kutta Bali</p>
+            </div>
+            <div class="schedule-details">
+                <p class="meets head">Meetings from suppliers from BBB</p>
+                <p class="meets detail">16.00-17.00</p>
+                <p class="meets detail">at Sunset Road Kutta Bali</p>
+            </div>
+            <div class="schedule-details">
+                <p class="meets head">Meetings from suppliers from CCC</p>
+                <p class="meets detail">18.00-19.00</p>
+                <p class="meets detail">at Sunset Road Kutta Bali</p>
+            </div>
+        </article>
+
+        <article id="contact">
+            <h2> Contact Details </h2>
+            <div class="contact-inner">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487392.28220576944!2d78.4226593496586!3d17.375652730403694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1719758174380!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </iframe>
+                <div class="feedback-form">
+                    <h2>Feedback</h2>
+                    <form action = "#" method="post">
+                        <input type = "text" name ="name" placeholder="Your Name" required />
+                        <br />
+                        <input type="email" name="email" placeholder="Your Email" required />
+                        <br />
+                        <textarea name="message" placeholder="Your Feedback" required> </textarea>
+                        <br />
+                        <input type="submit" value="Submit Feedback" />
+                    </form>
+                </div>
+
+            </div>
+        </article>
+            
+        <footer>
+            <div>
+                <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <div>&copy; 2024 Your Company Name. All Rights Reserved.</div>
+        </footer>
+    </section>
+
+</main>
+
+</body>
+
+</html>

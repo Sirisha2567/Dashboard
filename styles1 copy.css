@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'ShortBaby';
+    src: url('SedanSC-Regular.ttf');
+}
+
+
+body {
+    font-family: "Sedan SC", serif;
+    background-color: #f5f5f5;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+    position : sticky;
+    top : 20px;
+    background-color: black;
+    height: 90vh;
+    border-radius: 30px;
+}
+
+
+.profile {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.profile img {
+    width: 60%;
+    height: 75%;
+    border-radius: 50%;
+}
+
+
+.nav {
+    display: flex;
+    padding-right: 20px;
+    color: white;
+    margin-left: 30px;
+}
+
+.nav:hover {
+    color : gold;
+}
+
+.nav>a {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav>a:hover {
+    color : lightgray;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header>h1 {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+
+header>input {
+    margin-right: 5%;
+    margin-top: 20px;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    border: 0px solid white;
+    background-color: white;
+}
+
+
+header> input:focus {
+    outline:none;
+    border: 3px solid lightgreen;
+}
+
+
+#board {
+    width: 85%;
+    border-radius: 25px;
+    background-color: white;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+
+#board img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#data>h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card-con {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: ShortBaby;
+}
+
+.card {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.card1 {
+    background-color: lightskyblue;
+}
+
+.card>i{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+.cardHead {
+    margin-left: 10px;
+    font-size: 18px;
+    margin: 0px;
+
+}
+
+.cardData {
+    margin-top: 4px;
+    font-size: 16px;
+    margin-left: 10px;
+}
